@@ -1,0 +1,472 @@
+<!-- FOOTER START -->
+<footer class="footer-dark" style="background-image: url({{ asset('images/f-bg.jpg') }});">
+    <div class="container">
+
+        <!-- NEWS LETTER SECTION START -->
+        <div class="ftr-nw-content">
+            <div class="row">
+                <div class="col-md-5">
+                    <div class="ftr-nw-title">
+                        Join our email subscription now to get updates
+                        on new jobs and notifications.
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <form>
+                        <div class="ftr-nw-form">
+                            <input name="news-letter" class="form-control" placeholder="Enter Your Email" type="text">
+                            <button class="ftr-nw-subcribe-btn">Subscribe Now</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!-- NEWS LETTER SECTION END -->
+        <!-- FOOTER BLOCKES START -->
+        <div class="footer-top">
+            <div class="row">
+
+                <div class="col-lg-3 col-md-12">
+
+                    <div class="widget widget_about">
+                        <div class="logo-footer clearfix">
+                            <a href="{{ route('Frontend.index') }}"><img src="{{ asset('images/logo-light.png') }}"
+                                    alt=""></a>
+                        </div>
+                        <p>Many desktop publishing packages and web page editors now.</p>
+                        <ul class="ftr-list">
+                            <li>
+                                <p><span>Address :</span>65 Sunset CA 90026, USA </p>
+                            </li>
+                            <li>
+                                <p><span>Email :</span>example@max.com</p>
+                            </li>
+                            <li>
+                                <p><span>Call :</span>555-555-1234</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                </div>
+
+                <div class="col-lg-9 col-md-12">
+                    <div class="row">
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget widget_services ftr-list-center">
+                                <h3 class="widget-title">For Candidate</h3>
+                                <ul>
+                                    <li><a href="dashboard.html">User Dashboard</a></li>
+                                    <li><a href="dash-resume-alert.html">Alert resume</a></li>
+                                    <li><a href="candidate-grid.html">Candidates</a></li>
+                                    <li><a href="blog-list.html">Blog List</a></li>
+                                    <li><a href="blog-single.html">Blog single</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget widget_services ftr-list-center">
+                                <h3 class="widget-title">For Employers</h3>
+                                <ul>
+                                    <li><a href="dash-post-job.html">Post Jobs</a></li>
+                                    <li><a href="blog-grid.html">Blog Grid</a></li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="job-list.html">Jobs Listing</a></li>
+                                    <li><a href="job-detail.html">Jobs details</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget widget_services ftr-list-center">
+                                <h3 class="widget-title">Helpful Resources</h3>
+                                <ul>
+                                    <li><a href="faq.html">FAQs</a></li>
+                                    <li><a href="employer-detail.html">Employer detail</a></li>
+                                    <li><a href="dash-my-profile.html">Profile</a></li>
+                                    <li><a href="error-404.html">404 Page</a></li>
+                                    <li><a href="pricing.html">Pricing</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="widget widget_services ftr-list-center">
+                                <h3 class="widget-title">Quick Links</h3>
+                                <ul>
+                                    <li><a href="/">Home</a></li>
+                                    <li><a href="about-1.html">About us</a></li>
+                                    <li><a href="dash-bookmark.html">Bookmark</a></li>
+                                    <li><a href="job-grid.html">Jobs</a></li>
+                                    <li><a href="employer-list.html">Employer</a></li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <!-- FOOTER COPYRIGHT -->
+        <div class="footer-bottom">
+
+            <div class="footer-bottom-info">
+
+                <div class="footer-copy-right">
+                    <span class="copyrights-text">Copyright © 2022. All Rights Reserved.</span>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="javascript:void(0);" class="fab fa-facebook-f"></a></li>
+                    <li><a href="javascript:void(0);" class="fab fa-twitter"></a></li>
+                    <li><a href="javascript:void(0);" class="fab fa-instagram"></a></li>
+                    <li><a href="javascript:void(0);" class="fab fa-youtube"></a></li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</footer>
+<!-- FOOTER END -->
+
+<!-- BUTTON TOP START -->
+<button class="scroltop"><span class="fa fa-angle-up  relative" id="btn-vibrate"></span></button>
+
+<!--Model Popup Section Start-->
+<!--Signup popup -->
+<div class="modal fade twm-sign-up" id="sign_up_popup" aria-hidden="true" aria-labelledby="sign_up_popupLabel"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+
+            <div class="modal-header">
+                <h2 class="modal-title" id="sign_up_popupLabel">Sign Up</h2>
+                <p>Sign Up and get access to all the features of Job Hunters</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body">
+                <div class="twm-tabs-style-2">
+                    <ul class="nav nav-tabs" id="myTab" role="tablist">
+
+                        <!--Signup Candidate-->
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#sign-candidate"
+                                type="button"><i class="fas fa-user-tie"></i>Job Seeker</button>
+                        </li>
+                        <!--Signup Employer-->
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#sign-Employer"
+                                type="button"><i class="fas fa-building"></i>Employee</button>
+                        </li>
+
+                    </ul>
+                    <div class="tab-content" id="myTabContent">
+                        <!--Signup Candidate Content-->
+                        <div class="tab-pane fade show active" id="sign-candidate">
+                            <form action="{{ route('JobSeeker.SignUp.Submit') }}" method="POST">
+                                @csrf
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserName" type="text" required=""
+                                                class="form-control" placeholder="Full Name:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserEmail" type="email" class="form-control"
+                                                required="" placeholder="Email Address:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserPassword" type="password" class="form-control"
+                                                required="" placeholder="Enter Password:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserPhone" type="number" class="form-control"
+                                                required="" placeholder="Phone Number:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <div class=" form-check">
+                                                <input type="checkbox" class="form-check-input" id="agree1">
+                                                <label class="form-check-label" for="agree1">I agree to the
+                                                    <a href="javascript:void(0);">Terms and
+                                                        conditions</a></label>
+                                                <p>Already registered?
+                                                    <button class="twm-backto-login" data-bs-target="#sign_up_popup2"
+                                                        data-bs-toggle="modal" data-bs-dismiss="modal">Log in
+                                                        here</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="site-button">Sign Up</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <!--Signup Employer Content-->
+                        <div class="tab-pane fade" id="sign-Employer">
+                            <form action="{{ route('Employer.SignUp.Submit') }}" method="POST">
+                                @csrf
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserName" type="text" required=""
+                                                class="form-control" placeholder="Full Name:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserEmail" type="email" class="form-control"
+                                                required="" placeholder="Email Address:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserPassword" type="password" class="form-control"
+                                                required="" placeholder="Enter Password:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="UserPhone" type="text" class="form-control"
+                                                required="" placeholder="Phone Number:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <div class=" form-check">
+                                                <input type="checkbox" class="form-check-input" id="agree2">
+                                                <label class="form-check-label" for="agree2">I agree to the
+                                                    <a href="javascript:void(0);">Terms and
+                                                        conditions</a></label>
+                                                <p>Already registered?
+                                                    <button class="twm-backto-login" data-bs-target="#sign_up_popup2"
+                                                        data-bs-toggle="modal" data-bs-dismiss="modal">Log in
+                                                        here</button>
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="site-button">Sign Up</button>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal-footer">
+                <span class="modal-f-title">Login or Sign up with</span>
+                <ul class="twm-modal-social">
+                    <li><a href="javascript" class="facebook-clr"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li><a href="javascript" class="twitter-clr"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript" class="linkedin-clr"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="javascript" class="google-clr"><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+
+
+        </div>
+    </div>
+
+</div>
+<!--Login popup -->
+<div class="modal fade twm-sign-up" id="sign_up_popup2" aria-hidden="true" aria-labelledby="sign_up_popupLabel2"
+    tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+
+
+            <div class="modal-header">
+                <h2 class="modal-title" id="sign_up_popupLabel2">Login</h2>
+                <p>Login and get access to all the features of Job Hunters</p>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="twm-tabs-style-2">
+                    <ul class="nav nav-tabs" id="myTab2" role="tablist">
+
+                        <!--Login Candidate-->
+                        <li class="nav-item">
+                            <button class="nav-link active" data-bs-toggle="tab" data-bs-target="#login-candidate"
+                                type="button"><i class="fas fa-user-tie"></i>Candidate</button>
+                        </li>
+                        <!--Login Employer-->
+                        <li class="nav-item">
+                            <button class="nav-link" data-bs-toggle="tab" data-bs-target="#login-Employer"
+                                type="button"><i class="fas fa-building"></i>Employer</button>
+                        </li>
+
+                    </ul>
+
+                    <div class="tab-content" id="myTab2Content">
+                        <!--Login Candidate Content-->
+                        <div class="tab-pane fade show active" id="login-candidate">
+                            <form action="{{ route('JobSeeker.Login.Submit') }}" method="POST">
+                                @csrf
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="ADM_Email" type="email" required=""
+                                                class="form-control" placeholder="Email Address:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="ADM_Password" type="password" class="form-control"
+                                                required="" placeholder="Enter Password:">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <div class=" form-check">
+                                                <input type="checkbox" class="form-check-input" id="Password3">
+                                                <label class="form-check-label rem-forgot" for="Password3">Remember me
+                                                    <a href="javascript:void(0);">Forgot
+                                                        Password</a></label>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <button type="submit" class="site-button">Log in</button>
+                                        <div class="mt-3 mb-3">Don't have an account ?
+                                            <button class="twm-backto-login" data-bs-target="#sign_up_popup"
+                                                data-bs-toggle="modal" data-bs-dismiss="modal">Sign
+                                                Up</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+                        <!--Login Employer Content-->
+                        <div class="tab-pane fade" id="login-Employer">
+                            <form action="{{ route('login.submit') }}" method="POST">
+                                @csrf
+                                <div class="row">
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="ADM_Email" type="email" required=""
+                                                class="form-control" placeholder="Email Address:">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <input name="ADM_Password" type="password" class="form-control"
+                                                required="" placeholder="Enter Password:">
+                                        </div>
+                                    </div>
+
+
+                                    <div class="col-lg-12">
+                                        <div class="form-group mb-3">
+                                            <div class=" form-check">
+                                                <input type="checkbox" class="form-check-input" id="Password4">
+                                                <label class="form-check-label rem-forgot" for="Password4">Remember me
+                                                    <a href="javascript:void(0);">Forgot
+                                                        Password</a></label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-12">
+                                        <button type="submit" class="site-button">Log in</button>
+                                        <div class="mt-3 mb-3">Don't have an account ?
+                                            <button class="twm-backto-login" data-bs-target="#sign_up_popup"
+                                                data-bs-toggle="modal" data-bs-dismiss="modal">Sign
+                                                Up</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </form>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <span class="modal-f-title">Login or Sign up with</span>
+                <ul class="twm-modal-social">
+                    <li><a href="javascript" class="facebook-clr"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li><a href="javascript" class="twitter-clr"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="javascript" class="linkedin-clr"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                    <li><a href="javascript" class="google-clr"><i class="fab fa-google"></i></a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--Model Popup Section End-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css"
+    integrity="sha512-vKMx8UnXk60zUwyUnUPM3HbQo8QfmNx7+ltw8Pm5zLusl1XIfwcxo8DbWCqMGKaWeNxWA8yrx5v3SaVpMvR3CA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"
+    integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+@if (Session::has('Success!'))
+    <script>
+        toastr.success("{!! Session::get('Success!') !!}");
+    </script>
+@endif
+@if (Session::has('Error!'))
+    <script>
+        toastr.error("{!! Session::get('Error!') !!}");
+    </script>
+@endif
+
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/6433eeba4247f20fefeac8c7/1gtldp26d';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+    })();
+</script>
+<!--End of Tawk.to Script-->
